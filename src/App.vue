@@ -33,19 +33,19 @@ const opinion = ref('');
         <label>Apreciación:</label>
         <div class="radio-group">
           <div class="radio-option">
-            <input type="radio" id="regular" name="apreciacion" value="regular" v-model="selectedAppreciation">
+            <input type="radio" id="regular" name="apreciacion" value="Regular" v-model="selectedAppreciation">
             <label for="regular">Regular</label>
           </div>
           <div class="radio-option">
-            <input type="radio" id="bien" name="apreciacion" value="bien" v-model="selectedAppreciation">
+            <input type="radio" id="bien" name="apreciacion" value="Bien" v-model="selectedAppreciation">
             <label for="bien">Bien</label>
           </div>
           <div class="radio-option">
-            <input type="radio" id="muybien" name="apreciacion" value="muybien" v-model="selectedAppreciation">
+            <input type="radio" id="muybien" name="apreciacion" value="Muy bien" v-model="selectedAppreciation">
             <label for="muybien">Muy bien</label>
           </div>
           <div class="radio-option">
-            <input type="radio" id="increible" name="apreciacion" value="increible" v-model="selectedAppreciation">
+            <input type="radio" id="increible" name="apreciacion" value="Increible" v-model="selectedAppreciation">
             <label for="increible">Increíble</label>
           </div>
         </div>
